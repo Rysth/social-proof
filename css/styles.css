@@ -28,6 +28,7 @@ body{
 
 main{
   display: flex;
+  max-width: 80rem;
   flex-direction: column;
   justify-content: center;
 }
