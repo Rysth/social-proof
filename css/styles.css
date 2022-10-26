@@ -26,7 +26,7 @@ body{
   align-items: center;
 }
 
-main{
+.social-proof{
   display: flex;
   max-width: 80rem;
   flex-direction: column;
@@ -118,11 +118,13 @@ main{
 .review-component{
   background-color: var(--color-very-dark-magenta);
   width: 25rem;
-  height: 16rem;
-  padding: 2rem 2.3rem;
+  height: 15rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  margin: 0;
+  justify-content: space-around;
 }
 
 .author-information{
@@ -134,16 +136,17 @@ main{
 
 .author-information img{
   object-fit: cover;
+  border-radius: 100px;
   width: 3rem;
   height: 3rem;
-  border-radius: 100%;
+  margin-top: -.3rem;
 }
 
 .author-information .author-data{
-  display: inherit;
+  display: flex;
   flex-direction: column;
-  row-gap: .3rem;
-  vertical-align: middle;
+  row-gap: 0.3rem;
+  justify-content: center;
 }
 
 .author-data h2{
@@ -159,11 +162,13 @@ main{
 }
 
 .review-component .review{
+  width: 100%;
   color: var(--color-white);
   line-height: 1.3;
   font-size: 1.15rem;
-  margin-top: 1rem;
+  margin-top: 2 rem;
   margin-bottom: 0;
+  margin: 0;
 }
 
 @media (max-width: 1300px){
